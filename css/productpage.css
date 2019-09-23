@@ -1,0 +1,236 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  
+  color: #444;
+  font-family: "Open Sans", "Helvetica", san-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p{
+  color: #888;
+  font-family: "Open Sans";
+  font-size: 10px;
+}
+
+a{
+  color: #444;
+  text-decoration: none;
+}
+
+.nav{
+  background-color: #F2F2F2;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  padding: 0px 30px 0px 30px;
+  text-transform: uppercase;
+  width: 100%;
+  height: 60px;
+}
+
+.nav-left{
+  display: inline-block;
+  float: left;
+  width: auto;
+}
+
+.nav-right{
+  display: inline-block;
+  float: right;
+  padding-top: 15px;
+  width: auto;
+}
+
+.nav .nav-left img{
+  margin-right: 20px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+.nav a{
+  border-top: 3px solid transparent;
+  display: inline-block;
+  font-size: 11px;
+  margin-right: 20px;
+  padding-top: 20px;
+  transition: all 400ms ease;
+}
+
+.nav a:hover{
+  border-top: 3px solid red;
+  color: red;
+}
+
+.nav .select-dropdown{
+  border-bottom: 1px solid #444;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-weight: 300;
+  vertical-align: middle;
+  padding-bottom: 1px;
+  position: relative;
+  width: auto;
+}
+
+.nav select{
+  cursor: pointer;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.nav select:active, .nav select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav i{
+  margin-left: 30px;
+}
+
+
+.hero{
+  background-color: #F2F2F2;
+  clear: both;
+  margin: 0 auto;
+  padding: 50px 10px;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.product-image{
+  display: inline-block;
+  margin-left: -30px;
+  width: 60%;
+  height: 450px;
+}
+
+.product-image img{
+  width: 100%;
+}
+
+.product-info{
+  display: inline-block;
+  width: 25%;
+  position: absolute;
+  top: 25%;
+}
+
+.product-info img{
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.product-info p{
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.price{
+  font-family:"Roboto Condensed", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-nav{
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: 35%;
+  right: 0;
+  
+  text-align: center;
+}
+
+.hero-nav i{
+  color: #888;
+  display: block;
+  font-size: 10px;
+  transition: all 400ms ease;
+}
+
+.hero-nav i.fa-arrow-left{
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 20px;
+}
+
+.hero-nav i.fa-arrow-right{
+  padding-top: 20px;
+}
+
+.hero-nav i:hover{
+  color: red;
+  cursor: pointer;
+}
+
+/*.bg{
+  width: 75%;
+  height: 50%;
+  background-image: url('http://www.canex.ca/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/o/v/overear-studio-matte-black-zoom-thrqrtleft.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 10% center;
+}*/
+
+.hero a.buy-btn{
+  background-color: #EA1F2D;
+  color: #fff;
+  display: inline-block;
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  margin-right: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.hero a.apple-btn{
+  border: 2px solid #444;
+  color: #444;
+  display: inline-block;
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  margin-right: 10px;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.hero a.btn{
+  transition: all 400ms ease;
+}
+
+.hero a.btn:hover{
+  background-color: #444;
+  color: #fff;
+}
+
+
+.red{
+  background-color: #EA1F2D;
+  height: 250px;
+  width: 100%;
+}
